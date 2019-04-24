@@ -1,0 +1,15 @@
+<form data-form action="" class="subscribe">
+  <span data-form-label class="subscribe__label" style="visibility: hidden;">Email</span>
+
+  <p data-form-input-container class="subscribe__input">
+    <input data-form-input type="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+    <button type="submit" data-form-submit><span>Subscribe</span></button>
+  </p>
+
+  <p data-form-message class="subscribe__msg" style="display: none;">
+    Will get in touch with you soon.
+  </p>
+
+  <small data-form-error class="subscribe__errors" style="visibility: hidden;">Invalid email address</small>
+</form>

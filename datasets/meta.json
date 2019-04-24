@@ -5,7 +5,7 @@
   "description" : "description",
   "favicon" : false,
   "og" : {
-    "use" : false,
+    "use" : true,
     "title" : "OG placeholder title",
     "url" : "www.og-placeholder-url.com",
     "site_name" : "og placeholder url",
